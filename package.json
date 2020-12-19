@@ -1,0 +1,20 @@
+{
+  "name": "exploding-kitten-server",
+  "version": "1.0.0",
+  "description": "Exploding kitten's server",
+  "main": "server.js",
+  "author": "Paras Agrawal",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "lint": "eslint ./ --fix"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "nodemon": "^2.0.4"
+  }
+}
