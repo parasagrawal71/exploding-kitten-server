@@ -6,6 +6,13 @@ const UserSchema = new Schema({
   username: { type: String, required: true, unique: true },
   matchesPlayed: { type: Number, default: 0 },
   matchesWon: { type: Number, default: 0 },
+  deck: [
+    {
+      type: String,
+    },
+  ],
+  defuseCards: { type: Number, default: 0 },
+  openedCard: { type: String },
 });
 
 // Pre hook for `findOneAndUpdate`
