@@ -1,4 +1,3 @@
 module.exports = {
-  MONGODB_URI:
-    "mongodb+srv://testDB:testNewPassword@first-cluster.qgsj3.mongodb.net/exploding-kitten",
+  LOCAL_MONGODB: "mongodb://localhost:27017/exploding-kitten",
 };
